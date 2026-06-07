@@ -1,9 +1,10 @@
 import Hello from "./Hello";
+import Card from "./First";
 
 function App() {
   return (
     <div>
-      <Hello />
+      <Card />
       {/* write your compoents here */}
     </div>
   );
