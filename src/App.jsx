@@ -1,10 +1,14 @@
 import Hello from "./Hello";
 import Card from "./First";
-import Calculator from "./Calculator";
+import StudentProfile from "./Second"
+import Counter from "./Counter";
 function App() {
   return (
     <div>
-      <Calculator />
+      <Card />
+      <StudentProfile />
+      <Counter />
+      {/* write your compoents here */}
     </div>
   );
 }
