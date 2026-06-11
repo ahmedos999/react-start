@@ -1,11 +1,10 @@
 import Hello from "./Hello";
 import Card from "./First";
-
+import Calculator from "./Calculator";
 function App() {
   return (
     <div>
-      <Card />
-      {/* write your compoents here */}
+      <Calculator />
     </div>
   );
 }

@@ -1,27 +1,26 @@
 import { useState } from "react";
 export const Calculator = () => {
-    const [Calculator, event] = useState(0);
-
+    const [count, setCount] = useState(0);
     function increment() {
-        if (Calculator < 10) {
-            event(Calculator + 1);
+        if (count < 10) {
+            setCount(count + 1);
         }
     }
     function decrement() {
-        if (Calculator > 0) {
-            event(Calculator - 1);
+        if (count > 0) {
+            setCount(count - 1);
         }
     }
     function reset() {
-        event(Calculator = 0);
+        setCount(0);
     }
-
     return (
         <div>
-            count:{Calculator}
+            count:{count}
             <button onClick={increment}>Add</button>
             <button onClick={decrement}>Subtract</button>
             <button onClick={reset}>Reset</button>
         </div>
-    );
-};
+    )
+}
+export default Calculator
