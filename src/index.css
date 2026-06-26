@@ -1,6 +1,54 @@
-.bg-red {
+/*.bg-red {
   background-color: red;
 }
 .primary-btn {
   /*  */
+  .title{
+    text-align: center;
+    color: black;
+  }
+
+.users-container{
+  display:flex;
+  gap:20px;
+}
+.online{
+  width:15px;
+  height:15px ;
+  background-color:green ;
+  border-radius:50% ;
+}
+.offline{
+  width:15px;
+  height:15px ;
+  background-color:red;
+  border-radius:50% ;
+}
+.user-card{
+  width:220px;
+  padding:20px ;
+  background:white ;
+  border-radius:15px ;
+  text-align:center;
+  box-shadow: 0 0 10px rgpa(0, 0, 0 ,0.1);
+  border:1px solid blue;
+}
+.user-card img{
+  width:100px;
+  height:100px ;
+  object-fit: cover;
+  border-radius:50% ;
+}
+.user-card button{
+  margin-top:15px;
+  padding:10px 18px ;
+  background-color:blue ;
+  border-radius:8px ;
+  color: white;
+  font-size: 14px;
+  border:none;
+}
+.weather{
+  text-align: center;
+  margin-top: 30px;
 }
