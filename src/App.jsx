@@ -1,10 +1,6 @@
-import Hello from "./Hello";
-import Card from "./First";
-import StudentProfile from "./Second";
-import Counter from "./Counter";
-import { Parent } from "./Parent";
-import { List } from "./List";
 
+import UsersDashboard from "./UsersDashboard";
+import "./index.css"
 function App() {
   return (
     <div>
@@ -12,9 +8,9 @@ function App() {
       <StudentProfile />
       <Counter /> */}
       {/* <Parent /> */}
-      <List />
-
-      {/* write your compoents here */}
+      { /*<List />*/}
+      <UsersDashboard />
+      { /* write your compoents here */}
     </div>
   );
 }
